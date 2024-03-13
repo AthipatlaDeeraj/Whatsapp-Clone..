@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    display: flex;
+    background-color:rgb(251, 248, 248);
+}
+.leftmostline{
+    width: 3%;
+    background-color:rgb(251, 248, 248);
+    height: 100vh;
+}
+.wholecontainer{
+    margin-top: 2%;
+    display: flex;
+    background-color: white;
+    width: 97%;
+    height: 100%;
+    border-left: 1px solid rgb(197, 190, 190);
+    border-bottom-left-radius:7px ;
+    border-top-left-radius:7px ;
+}
+.leftpart{
+    width: 25%;
+    height: 100%;
+    position: sticky;
+}
+.rightpart{
+    position: relative;
+    width: 75%;
+    color: black;
+    text-align: center;
+    border-left: 1px solid rgb(215, 206, 206);
+    height: 100%;
+}
+.leftpart1{
+    display: flex;
+    font-size: x-large;
+    margin-top: 5%;
+}
+input{
+    margin-top: 4%;
+    border-radius:5px;
+    width: 80%;
+    overflow: hidden;
+    padding: 6px;
+    text-align: center;
+    margin-left: 8%;
+}
+.chats{
+    margin-left: 6%;
+}
+.icons1{
+    margin-left: 50%;
+}
+.icons2{
+    margin-left: 7%;
+}
+input:hover,input:active{
+    box-shadow: 2px 2px 5px lightgreen;
+    border: none;
+}
+
+.logo{
+    margin-top: 10%;
+    margin-left: 12%;
+    width: 70%;
+    height: 4%;
+}
+.top{
+    display: grid;
+    position: relative;
+    top: 3%;
+    left: 14%;
+    gap: 10%;
+}
+.bottom{
+    display: grid;
+    position: relative;
+    top: 63%;
+    left: 14%;
+    gap: 10%;
+}
+.leftpart3{
+    overflow-y:scroll;
+    height: 80vh;
+    margin-left: 3%;
+    margin-right: 3%;
+    overflow-x: hidden;
+}
+.profile{
+    width: 50%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5%;
+    height: fit-content;
+    scrollbar-color: red;
+  }
